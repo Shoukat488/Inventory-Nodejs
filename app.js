@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const bodyPardser = require('body-parser');
 
-const url = "mongodb+srv://shoukatali488:googly4891@cluster0-r4zrj.mongodb.net/test?retryWrites=true&w=majority";
+const url = "mongodb+srv://shoukatali488password@cluster0-r4zrj.mongodb.net/test?retryWrites=true&w=majority";
 const app = express();
 
 mongoose.connect(url, {useNewUrlParser:true , useUnifiedTopology:true});
